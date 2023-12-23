@@ -33,6 +33,9 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 const Nav = () => {
+  const router = useRouter()
+  const pathname = router.pathname
+
   return (
     <nav>
       {/* Inner */}
