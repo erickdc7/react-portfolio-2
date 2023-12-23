@@ -54,6 +54,8 @@ const Nav = () => {
                     <div className='text-[12px] leading-none font-semibold capitalize'>
                       {link.name}
                     </div>
+                    {/* Triangle */}
+                    <div className='border-solid border-l-white border-l-8 border-y-transparent border-y-[6px] border-r-0 absolute -right-2'></div>
                   </div>
                 </div>
 
