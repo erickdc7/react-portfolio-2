@@ -33,7 +33,22 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 const Nav = () => {
-  return <nav>nav</nav>;
+  return (
+    <nav>
+      {/* Inner */}
+      <div>
+        {
+          navData.map((link, index) => {
+            return (
+              <Link href={link.path}>
+                {link.icon}
+              </Link>
+            )
+          })
+        }
+      </div>
+    </nav>
+  );
 };
 
 export default Nav;
