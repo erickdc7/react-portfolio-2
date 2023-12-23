@@ -15,7 +15,11 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <Layout>
-      <Component {...pageProps} />
+      <AnimatePresence mode='wait'>
+        <div>
+          <Component {...pageProps} />
+        </div>
+      </AnimatePresence>
     </Layout>
   );
 }
