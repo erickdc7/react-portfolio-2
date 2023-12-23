@@ -17,6 +17,7 @@ function MyApp({ Component, pageProps }) {
     <Layout>
       <AnimatePresence mode='wait'>
         <div>
+          <Transition />
           <Component {...pageProps} />
         </div>
       </AnimatePresence>
