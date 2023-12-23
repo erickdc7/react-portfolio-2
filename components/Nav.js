@@ -39,7 +39,7 @@ const Nav = () => {
   return (
     <nav>
       {/* Inner */}
-      <div>
+      <div className='flex w-full xl:flex-col items-center justify-between xl:justify-center gap-y-10 px-4 md:px-40 xl:px-0 h-80 xl:h-max py-8 bg-white/10 backdrop-blur-sm text-3xl xl:text-xl xl:rounded-full'>
         {
           navData.map((link, index) => {
             return (
