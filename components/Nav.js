@@ -50,7 +50,7 @@ const Nav = () => {
               >
                 {/* Tooltip */}
                 <div>
-                  <div>
+                  <div className='bg-white relative flex text-primary items-center p-[6px]'>
                     <div className='text-[12px]'>{link.name}</div>
                   </div>
                 </div>
