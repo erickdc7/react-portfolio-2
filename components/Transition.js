@@ -1,5 +1,5 @@
 // Framer Motion
-import { motion } from "framer-motion";
+import { delay, motion } from "framer-motion";
 
 // Variants
 const transitionVariants = {
@@ -20,7 +20,16 @@ const transitionVariants = {
 const Transition = () => {
   return (
     <>
-      <div>1</div>
+      <motion.div
+        className="fixed top-0 bottom-0 right-full w-screen h-screen z-30 bg-[#2e2257]"
+        variants={transitionVariants}
+        initial="initial"
+        animate="animate"
+        exit="exit"
+        transition={{ delay: 0.2, duration: 0.6, ease: 'easeInOut' }}
+      >
+        1
+      </motion.div >
       <div>2</div>
       <div>3</div>
     </>
