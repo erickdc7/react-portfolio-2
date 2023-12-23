@@ -8,8 +8,17 @@ const sora = Sora({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800'],
 })
 
-const Layout = () => {
-  return <div>Layout</div>;
+// Components
+import Nav from '../components/Nav'
+import Header from '../components/Header'
+import TopLeftImg from '../components/TopLeftImg'
+
+const Layout = ({ children }) => {
+  return <div>
+    <Nav />
+    <Header />
+    <TopLeftImg />
+  </div>;
 };
 
 export default Layout;
