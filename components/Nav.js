@@ -49,7 +49,7 @@ const Nav = () => {
                 key={index}
               >
                 {/* Tooltip */}
-                <div>{link.name}</div>
+                <div className='text-[12px]'>{link.name}</div>
 
                 {/* Icon */}
                 <div>{link.icon}</div>
