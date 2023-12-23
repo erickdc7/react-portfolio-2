@@ -43,7 +43,7 @@ const Nav = () => {
         {
           navData.map((link, index) => {
             return (
-              <Link href={link.path}>
+              <Link href={link.path} key={index}>
                 {link.icon}
               </Link>
             )
