@@ -48,6 +48,10 @@ const Nav = () => {
                 href={link.path}
                 key={index}
               >
+                {/* Tooltip */}
+                <div>{link.name}</div>
+
+                {/* Icon */}
                 <div>{link.icon}</div>
               </Link>
             )
