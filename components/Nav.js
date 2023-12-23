@@ -1,4 +1,4 @@
-// icons
+// Icons
 import {
   HiHome,
   HiUser,
@@ -8,7 +8,7 @@ import {
   HiEnvelope,
 } from 'react-icons/hi2';
 
-// nav data
+// Nav data
 export const navData = [
   { name: 'home', path: '/', icon: <HiHome /> },
   { name: 'about', path: '/about', icon: <HiUser /> },
@@ -25,6 +25,9 @@ export const navData = [
     icon: <HiEnvelope />,
   },
 ];
+
+// Next Link
+import Link from 'next/link';
 
 const Nav = () => {
   return <nav>nav</nav>;
