@@ -61,6 +61,8 @@ const Home = () => {
       </div>
       {/* Particles */}
       <div>Particles</div>
+      {/* Avatar Img */}
+
     </div>
   );
 };
