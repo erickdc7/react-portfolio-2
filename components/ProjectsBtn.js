@@ -10,7 +10,7 @@ import { HiArrowRight } from "react-icons/hi2"
 const ProjectsBtn = () => {
   return (
     <div className="mx-auto xl:mx-0">
-      Project Btn
+      <Link href={'/work'}></Link>
     </div>
   );
 };
