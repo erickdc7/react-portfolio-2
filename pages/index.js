@@ -55,7 +55,9 @@ const Home = () => {
         </div>
       </div>
       {/* Image */}
-      <div>image</div>
+      <div>
+        {/* Bg Image */}
+      </div>
     </div>
   );
 };
