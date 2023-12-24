@@ -1,3 +1,6 @@
+// Next image
+import Image from "next/image";
+
 const Avatar = () => {
   return <div>Avatar</div>;
 };
