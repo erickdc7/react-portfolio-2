@@ -13,7 +13,12 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants"
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div className="bg-primary/60 h-full">
+      <div>text</div>
+      <div>image</div>
+    </div>
+  );
 };
 
 export default Home;
