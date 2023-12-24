@@ -6,6 +6,9 @@ import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
 import Avatar from "../components/Avatar";
 
+// Framer Motion
+import { motion } from "framer-motion";
+
 const Home = () => {
   return <div>Home</div>;
 };
