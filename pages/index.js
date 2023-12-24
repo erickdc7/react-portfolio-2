@@ -23,6 +23,10 @@ const Home = () => {
             Transforming Ideas <br /> Into
             <span className="text-accent">Digital Reality</span>
           </h1>
+          {/* Subtitle */}
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus inventore magnam voluptate minus et id molestiae reprehenderit enim distinctio? Sed temporibus neque aliquid, veritatis facere vel itaque fugiat!
+          </p>
         </div>
       </div>
       {/* Image */}
