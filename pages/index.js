@@ -15,7 +15,9 @@ import { fadeIn } from "../variants"
 const Home = () => {
   return (
     <div className="bg-primary/60 h-full">
+      {/* Text */}
       <div>text</div>
+      {/* Image */}
       <div>image</div>
     </div>
   );
