@@ -37,7 +37,7 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus inventore magnam voluptate minus et id molestiae reprehenderit enim distinctio? Sed temporibus neque aliquid, veritatis facere vel itaque fugiat!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere molestiae fugit perferendis, distinctio sequi cumque velit expedita quia praesentium minus!
           </motion.p>
           {/* Btn */}
           <div className="flex justify-center xl:hidden relative">
