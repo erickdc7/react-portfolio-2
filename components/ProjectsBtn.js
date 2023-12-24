@@ -17,7 +17,8 @@ const ProjectsBtn = () => {
           height={148}
           alt=""
           className="animate-spin-slow w-full h-full max-w-[141px] max-h-[148px]"
-        ></Image>
+        />
+        <HiArrowRight />
       </Link>
     </div>
   );
