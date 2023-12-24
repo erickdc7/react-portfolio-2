@@ -16,7 +16,12 @@ const Home = () => {
   return (
     <div className="bg-primary/60 h-full">
       {/* Text */}
-      <div>text</div>
+      <div>
+        <div>
+          {/* Title */}
+          <h1>Transforming Ideas <br /> Into <span>Digital Reality</span></h1>
+        </div>
+      </div>
       {/* Image */}
       <div>image</div>
     </div>
