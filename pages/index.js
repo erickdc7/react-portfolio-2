@@ -19,7 +19,10 @@ const Home = () => {
       <div>
         <div>
           {/* Title */}
-          <h1>Transforming Ideas <br /> Into <span>Digital Reality</span></h1>
+          <h1 className="h1">
+            Transforming Ideas <br /> Into
+            <span className="text-accent">Digital Reality</span>
+          </h1>
         </div>
       </div>
       {/* Image */}
