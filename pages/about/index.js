@@ -1,4 +1,4 @@
-// icons
+// Icons
 import {
   FaHtml5,
   FaCss3,
@@ -15,8 +15,7 @@ import {
   SiAdobephotoshop,
 } from "react-icons/si";
 
-
-//  data
+// Data
 const aboutData = [
   {
     title: 'skills',
