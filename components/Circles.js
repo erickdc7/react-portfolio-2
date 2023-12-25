@@ -2,7 +2,11 @@
 import Image from "next/image";
 
 const Circles = () => {
-  return <div>Circles</div>;
+  return (
+    <div>
+      <Image />
+    </div>
+  )
 };
 
 export default Circles;
