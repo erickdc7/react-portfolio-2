@@ -113,6 +113,7 @@ const About = () => {
       >
         <Avatar />
       </motion.div>
+      <div></div>
     </div>
   );
 };
