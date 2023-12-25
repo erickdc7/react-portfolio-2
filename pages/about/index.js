@@ -100,6 +100,9 @@ const About = () => {
     <div>
       <Circles />
       {/* Avatar Img */}
+      <div>
+        <Avatar />
+      </div>
     </div>
   );
 };
