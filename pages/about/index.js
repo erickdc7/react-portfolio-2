@@ -100,9 +100,9 @@ const About = () => {
     <div>
       <Circles />
       {/* Avatar Img */}
-      <div>
+      <motion.div className="hidden xl:flex absolute bottom-0 -left-[370px]">
         <Avatar />
-      </div>
+      </motion.div>
     </div>
   );
 };
