@@ -11,10 +11,10 @@ const Socials = () => {
         <RiYoutubeLine />
       </Link>
       <Link href={''} className="hover:text-accent transition-all duration-300">
-        <RiInstagramLine />
+        <RiFacebookLine />
       </Link>
       <Link href={''} className="hover:text-accent transition-all duration-300">
-        <RiFacebookLine />
+        <RiInstagramLine />
       </Link>
       <Link href={''} className="hover:text-accent transition-all duration-300">
         <RiDribbbleLine />
