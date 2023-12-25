@@ -94,6 +94,8 @@ import Avatar from "../../components/Avatar";
 import Circles from "../../components/Circles";
 
 const About = () => {
+  const [index, setIndex] = useState(0)
+
   return <div>About</div>;
 };
 
