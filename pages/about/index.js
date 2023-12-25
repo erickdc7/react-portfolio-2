@@ -113,7 +113,7 @@ const About = () => {
       >
         <Avatar />
       </motion.div>
-      <div></div>
+      <div className="container mx-auto"></div>
     </div>
   );
 };
