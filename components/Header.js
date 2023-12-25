@@ -13,7 +13,7 @@ const Header = () => {
       <div className="container mx-auto">
         <div>
           {/* Logo */}
-          <Link>
+          <Link href={'/'}>
             <Image src={'/logo.svg'} width={220} height={48} />
           </Link>
         </div>
