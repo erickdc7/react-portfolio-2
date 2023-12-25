@@ -99,6 +99,7 @@ const About = () => {
   return (
     <div>
       <Circles />
+      {/* Avatar Img */}
     </div>
   );
 };
