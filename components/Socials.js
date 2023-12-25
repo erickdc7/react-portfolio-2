@@ -6,7 +6,11 @@ import { RiYoutubeLine, RiInstagramLine, RiFacebookLine, RiDribbbleLine, RiBehan
 
 const Socials = () => {
   return (
-    <div>Socials</div>
+    <div>
+      <Link href={''} className="">
+        <RiYoutubeLine />
+      </Link>
+    </div>
   );
 };
 
