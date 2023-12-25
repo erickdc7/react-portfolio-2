@@ -101,7 +101,7 @@ const About = () => {
   const [index, setIndex] = useState(0)
 
   return (
-    <div>
+    <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
       <Circles />
       {/* Avatar Img */}
       <motion.div
