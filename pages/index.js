@@ -27,7 +27,7 @@ const Home = () => {
             className="h1"
           >
             Transforming Ideas <br /> Into
-            <span className="text-accent">Digital Reality</span>
+            <span className="text-accent"> Digital Reality</span>
           </motion.h1>
           {/* Subtitle */}
           <motion.p
