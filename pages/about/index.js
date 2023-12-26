@@ -138,6 +138,7 @@ const About = () => {
                   <div key={itemIndex}>
                     {/* Title */}
                     <div>{item.title}</div>
+                    <div className="hidden md:flex">-</div>
                   </div>
                 )
               })
