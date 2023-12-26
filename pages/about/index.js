@@ -128,6 +128,7 @@ const About = () => {
           {/* Counters */}
           <div>
             <div>
+              {/* Experience */}
               <div></div>
             </div>
           </div>
