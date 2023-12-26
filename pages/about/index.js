@@ -140,7 +140,16 @@ const About = () => {
                     <div>{item.title}</div>
                     <div className="hidden md:flex">-</div>
                     <div>{item.stage}</div>
-                    {/* Icons */}
+                    <div>
+                      {/* Icons */}
+                      {
+                        item.icons?.map((icon, itemIndex) => {
+                          return (
+                            <div key={itemIndex}>{icon}</div>
+                          )
+                        })
+                      }
+                    </div>
                   </div>
                 )
               })
