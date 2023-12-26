@@ -126,7 +126,11 @@ const About = () => {
             10 years ago, I began freelancing as a developer. Since then, I've done remote work for agencies, counsulted for startups, and collaborated on digital products for business and consumer use.
           </p>
           {/* Counters */}
-          <div>counters</div>
+          <div>
+            <div>
+              <div></div>
+            </div>
+          </div>
         </div>
         {/* Info */}
         <div className="flex flex-col w-full xl:max-w-[48%] h-[480px]">
