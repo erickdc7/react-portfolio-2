@@ -137,6 +137,7 @@ const About = () => {
                 return (
                   <div key={itemIndex}>
                     {/* Title */}
+                    <div>{item.title}</div>
                   </div>
                 )
               })
