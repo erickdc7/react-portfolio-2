@@ -129,7 +129,7 @@ const About = () => {
           <div>
             <div>
               {/* Experience */}
-              <div></div>
+              <div>experience</div>
             </div>
           </div>
         </div>
