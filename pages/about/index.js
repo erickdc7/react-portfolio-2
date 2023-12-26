@@ -129,7 +129,11 @@ const About = () => {
           <div>
             <div>
               {/* Experience */}
-              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">experience</div>
+              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
+                <div>
+                  <CountUp start={0} end={10} duration={5} /> +
+                </div>
+              </div>
             </div>
           </div>
         </div>
