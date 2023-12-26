@@ -136,7 +136,7 @@ const About = () => {
               aboutData[index].info.map((item, itemIndex) => {
                 return (
                   <div key={itemIndex}>
-                    
+                    {/* Title */}
                   </div>
                 )
               })
