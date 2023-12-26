@@ -133,6 +133,7 @@ const About = () => {
                 <div>
                   <CountUp start={0} end={10} duration={5} /> +
                 </div>
+                <div>Years of experience</div>
               </div>
             </div>
           </div>
