@@ -140,6 +140,7 @@ const About = () => {
                     <div>{item.title}</div>
                     <div className="hidden md:flex">-</div>
                     <div>{item.stage}</div>
+                    {/* Icons */}
                   </div>
                 )
               })
