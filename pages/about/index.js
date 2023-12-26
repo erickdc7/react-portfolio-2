@@ -128,9 +128,15 @@ const About = () => {
           >
             Captivating <span className="text-accent">stories</span> birth magnificent designs.
           </motion.h2>
-          <p className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
+          <motion.p
+            variants={fadeIn('right', 0.4)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
+          >
             10 years ago, I began freelancing as a developer. Since then, I've done remote work for agencies, counsulted for startups, and collaborated on digital products for business and consumer use.
-          </p>
+          </motion.p>
           {/* Counters */}
           <div className="hidden md:flex md:max-w-xl xl:max-w-none mx-auto xl:mx-0 mb-8">
             <div className="flex flex-1 xl:gap-x-6">
