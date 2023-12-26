@@ -126,7 +126,7 @@ const About = () => {
             10 years ago, I began freelancing as a developer. Since then, I've done remote work for agencies, counsulted for startups, and collaborated on digital products for business and consumer use.
           </p>
           {/* Counters */}
-          <div>
+          <div className="hidden md:flex md:max-w-xl xl:max-w-none mx-auto xl:mx-0 mb-8">
             <div className="flex flex-1 xl:gap-x-6">
               {/* Experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
