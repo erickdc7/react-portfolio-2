@@ -135,7 +135,10 @@ const About = () => {
             {
               aboutData[index].info.map((item, itemIndex) => {
                 return (
-                  <div key={itemIndex}>
+                  <div
+                    key={itemIndex}
+                    className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
+                  >
                     {/* Title */}
                     <div>{item.title}</div>
                     <div className="hidden md:flex">-</div>
