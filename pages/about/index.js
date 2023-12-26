@@ -131,6 +131,17 @@ const About = () => {
               })
             }
           </div>
+          <div>
+            {
+              aboutData[index].info.map((item, itemIndex) => {
+                return (
+                  <div key={itemIndex}>
+                    
+                  </div>
+                )
+              })
+            }
+          </div>
         </div>
       </div>
     </div>
