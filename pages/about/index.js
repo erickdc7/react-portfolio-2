@@ -116,7 +116,9 @@ const About = () => {
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         {/* Text */}
         <div className="flex-1 flex flex-col justify-center">
-          <h2>Captivating <span>stories</span> birth magnificent designs.</h2>
+          <h2 className="h2">
+            Captivating <span>stories</span> birth magnificent designs.
+          </h2>
           <p>
             10 years ago, I began freelancing as a developer. Since then, I've done remote work for agencies, counsulted for startups, and collaborated on digital products for business and consumer use.
           </p>
