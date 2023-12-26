@@ -140,7 +140,7 @@ const About = () => {
                     <div>{item.title}</div>
                     <div className="hidden md:flex">-</div>
                     <div>{item.stage}</div>
-                    <div>
+                    <div className="flex gap-x-4">
                       {/* Icons */}
                       {
                         item.icons?.map((icon, itemIndex) => {
