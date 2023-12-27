@@ -14,7 +14,7 @@ const Services = () => {
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">
           {/* Text */}
-          <div>
+          <div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0">
             <h2 className="h2 xl:mt-8">
               My services <span className="text-accent">.</span>
             </h2>
