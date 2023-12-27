@@ -49,7 +49,11 @@ const serviceData = [
 ];
 
 const ServiceSlider = () => {
-  return <div>Service Slider</div>;
+  return (
+    <Swiper>
+      Service Slider
+    </Swiper>
+  );
 };
 
 export default ServiceSlider;
