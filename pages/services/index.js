@@ -14,6 +14,7 @@ const Services = () => {
       <div className="container mx-auto">
         <div>
           {/* Text */}
+          <div>text</div>
         </div>
       </div>
       <Bulb />
