@@ -18,6 +18,9 @@ const Services = () => {
             <h2 className="h2 xl:mt-8">
               My services <span className="text-accent">.</span>
             </h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere consequuntur nobis suscipit necessitatibus aperiam ducimus minima. Repellendus maxime eveniet libero.
+            </p>
           </div>
           {/* Slider */}
           <ServiceSlider />
