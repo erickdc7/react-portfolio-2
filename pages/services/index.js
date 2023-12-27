@@ -15,7 +15,9 @@ const Services = () => {
         <div className="flex flex-col xl:flex-row gap-x-8">
           {/* Text */}
           <div>
-            <h2>My services</h2>
+            <h2 className="h2 xl:mt-8">
+              My services
+            </h2>
           </div>
           {/* Slider */}
           <ServiceSlider />
