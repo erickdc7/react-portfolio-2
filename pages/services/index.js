@@ -14,7 +14,9 @@ const Services = () => {
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">
           {/* Text */}
-          <div>text</div>
+          <div>
+            <h2>My services</h2>
+          </div>
           {/* Slider */}
           <ServiceSlider />
         </div>
