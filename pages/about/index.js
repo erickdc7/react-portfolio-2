@@ -186,7 +186,13 @@ const About = () => {
           </motion.div>
         </div>
         {/* Info */}
-        <div className="flex flex-col w-full xl:max-w-[48%] h-[480px]">
+        <motion.div
+          variants={fadeIn('left', 0.4)}
+          initial="hidden"
+          animate="show"
+          exit="hidden"
+          className="flex flex-col w-full xl:max-w-[48%] h-[480px]"
+        >
           <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
             {
               aboutData.map((item, itemIndex) => {
@@ -229,7 +235,7 @@ const About = () => {
               })
             }
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
