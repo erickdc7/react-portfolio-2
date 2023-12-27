@@ -16,7 +16,7 @@ const Services = () => {
           {/* Text */}
           <div>
             <h2 className="h2 xl:mt-8">
-              My services
+              My services <span className="text-accent">.</span>
             </h2>
           </div>
           {/* Slider */}
