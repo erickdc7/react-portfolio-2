@@ -16,6 +16,7 @@ const Services = () => {
           {/* Text */}
           <div>text</div>
           {/* Slider */}
+          <ServiceSlider />
         </div>
       </div>
       <Bulb />
