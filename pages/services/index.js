@@ -12,6 +12,7 @@ const Services = () => {
     <div>
       <Circles />
       <div className="container mx-auto"></div>
+      <Bulb />
     </div>
   );
 };
