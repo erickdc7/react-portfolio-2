@@ -15,6 +15,7 @@ const Services = () => {
         <div>
           {/* Text */}
           <div>text</div>
+          {/* Slider */}
         </div>
       </div>
       <Bulb />
