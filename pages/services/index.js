@@ -13,7 +13,7 @@ const Services = () => {
       <Circles />
       <div className="container mx-auto">
         <div>
-          {/*  */}
+          {/* Text */}
         </div>
       </div>
       <Bulb />
