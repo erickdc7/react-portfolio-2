@@ -8,7 +8,11 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 
 const Services = () => {
-  return <div>Services</div>;
+  return (
+    <div>
+      <Circles />
+    </div>
+  );
 };
 
 export default Services;
