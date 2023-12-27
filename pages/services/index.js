@@ -19,7 +19,7 @@ const Services = () => {
               My services <span className="text-accent">.</span>
             </h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere consequuntur nobis suscipit necessitatibus aperiam ducimus minima. Repellendus maxime eveniet libero.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere consequuntur nobis suscipit necessitatibus aperiam ducimus minima.
             </p>
           </div>
           {/* Slider */}
