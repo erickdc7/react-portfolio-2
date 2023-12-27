@@ -13,6 +13,7 @@ import {
   RxDesktop,
   RxReader,
   RxRocket,
+  RxArrowRight,
 } from "react-icons/rx";
 
 
