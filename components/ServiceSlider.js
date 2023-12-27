@@ -1,3 +1,6 @@
+// Swiper react components
+import { Swiper, SwiperSlide } from "swiper/react";
+
 // Icons
 import {
   RxCrop,
