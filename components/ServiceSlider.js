@@ -73,6 +73,8 @@ const ServiceSlider = () => {
           return (
             <SwiperSlide key={index}>
               <div>
+                {/* Icon */}
+                <div>{item.icon}</div>
 
               </div>
             </SwiperSlide>
