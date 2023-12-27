@@ -75,7 +75,7 @@ const ServiceSlider = () => {
               <div>
                 {/* Icon */}
                 <div>{item.icon}</div>
-
+                {/* Title & Desc */}
               </div>
             </SwiperSlide>
           )
