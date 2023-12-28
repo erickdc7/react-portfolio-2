@@ -52,19 +52,8 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 
-// Icons
-import {
-  RxCrop,
-  RxPencil2,
-  RxDesktop,
-  RxReader,
-  RxRocket,
-  RxArrowRight,
-  RxArrowTopRight,
-} from "react-icons/rx";
-
 // Required modules
-import { FreeMode, Pagination } from "swiper";
+import { Pagination } from "swiper";
 
 const WorkSlider = () => {
   return (
