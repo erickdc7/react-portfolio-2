@@ -80,8 +80,12 @@ const ServiceSlider = () => {
                 </div>
                 {/* Title & Desc */}
                 <div className="mb-8">
-                  <div className="mb-2 text-lg">{item.title}</div>
-                  <p>{item.description}</p>
+                  <div className="mb-2 text-lg">
+                    {item.title}
+                  </div>
+                  <p className="max-w-[350px] leading-normal">
+                    {item.description}
+                  </p>
                 </div>
                 {/* Arrow */}
                 <div className="text-3xl">
