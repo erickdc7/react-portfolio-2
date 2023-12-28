@@ -77,7 +77,7 @@ const WorkSlider = () => {
                   slide.images.map((image, index) => {
                     return (
                       <div key={index}>
-
+                        {/* Image */}
                       </div>
                     )
                   })
