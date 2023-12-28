@@ -80,13 +80,15 @@ const WorkSlider = () => {
                   slide.images.map((image, index) => {
                     return (
                       <div key={index}>
-                        {/* Image */}
-                        <Image
-                          src={image.path}
-                          width={500}
-                          height={300}
-                          alt=""
-                        />
+                        <div>
+                          {/* Image */}
+                          <Image
+                            src={image.path}
+                            width={500}
+                            height={300}
+                            alt=""
+                          />
+                        </div>
                       </div>
                     )
                   })
