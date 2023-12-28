@@ -34,8 +34,8 @@ const Services = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis asperiores accusantium excepturi exercitationem sit minima.
             </motion.p>
           </div>
+          {/* Slider */}
           <div className="w-full xl:max-w-[65%]">
-            {/* Slider */}
             <ServiceSlider />
           </div>
         </div>
