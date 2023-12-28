@@ -22,8 +22,10 @@ const Services = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis asperiores accusantium excepturi exercitationem sit minima.
             </p>
           </div>
-          {/* Slider */}
-          <ServiceSlider />
+          <div>
+            {/* Slider */}
+            <ServiceSlider />
+          </div>
         </div>
       </div>
       <Bulb />
