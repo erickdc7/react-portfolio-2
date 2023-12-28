@@ -81,7 +81,12 @@ const WorkSlider = () => {
                     return (
                       <div key={index}>
                         {/* Image */}
-                        <Image />
+                        <Image
+                          src={image.path}
+                          width={500}
+                          height={300}
+                          alt=""
+                        />
                       </div>
                     )
                   })
