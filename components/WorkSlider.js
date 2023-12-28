@@ -78,6 +78,7 @@ const WorkSlider = () => {
                     return (
                       <div key={index}>
                         {/* Image */}
+                        <Image />
                       </div>
                     )
                   })
