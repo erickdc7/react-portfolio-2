@@ -91,6 +91,7 @@ const WorkSlider = () => {
                             height={300}
                             alt=""
                           />
+                          {/* Overlay gradient */}
                         </div>
                       </div>
                     )
