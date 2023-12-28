@@ -55,6 +55,9 @@ import 'swiper/css/pagination';
 // Required modules
 import { Pagination } from "swiper";
 
+// Icons
+import { BsArrowRight } from "react-icons/bs";
+
 const WorkSlider = () => {
   return (
     <Swiper
