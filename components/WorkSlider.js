@@ -72,7 +72,9 @@ const WorkSlider = () => {
         workSlides.slides.map((slide, index) => {
           return (
             <SwiperSlide key={index}>
-              slide
+              <div>
+
+              </div>
             </SwiperSlide>
           )
         })
