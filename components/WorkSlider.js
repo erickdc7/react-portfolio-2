@@ -58,6 +58,9 @@ import { Pagination } from "swiper";
 // Icons
 import { BsArrowRight } from "react-icons/bs";
 
+// Next Image
+import Image from "next/image";
+
 const WorkSlider = () => {
   return (
     <Swiper
