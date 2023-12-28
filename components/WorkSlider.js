@@ -61,16 +61,7 @@ import { BsArrowRight } from "react-icons/bs";
 const WorkSlider = () => {
   return (
     <Swiper
-      breakpoints={{
-        320: {
-          slidesPerView: 1,
-          spaceBetween: 15
-        },
-        640: {
-          slidesPerView: 3,
-          spaceBetween: 15
-        },
-      }}
+      spaceBetween={10}
       pagination={{
         clickable: true
       }}
