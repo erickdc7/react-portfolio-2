@@ -79,10 +79,10 @@ const WorkSlider = () => {
       className="h-[240px] sm:h-[340px]"
     >
       {
-        workSlides.slides.map((item, index) => {
+        workSlides.slides.map((slide, index) => {
           return (
             <SwiperSlide key={index}>
-
+              slide
             </SwiperSlide>
           )
         })
