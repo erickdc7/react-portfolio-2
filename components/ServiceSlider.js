@@ -79,7 +79,7 @@ const ServiceSlider = () => {
                   {item.icon}
                 </div>
                 {/* Title & Desc */}
-                <div>
+                <div className="mb-8">
                   <div>{item.title}</div>
                   <p>{item.description}</p>
                 </div>
