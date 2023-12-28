@@ -22,7 +22,7 @@ const Services = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis asperiores accusantium excepturi exercitationem sit minima.
             </p>
           </div>
-          <div>
+          <div className="w-full xl:max-w-[65%]">
             {/* Slider */}
             <ServiceSlider />
           </div>
