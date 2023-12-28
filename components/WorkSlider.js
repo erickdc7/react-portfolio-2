@@ -97,6 +97,7 @@ const WorkSlider = () => {
                           <div>
                             <div>
                               {/* Title Part 1 */}
+                              <div>title part 1</div>
                             </div>
                           </div>
                         </div>
