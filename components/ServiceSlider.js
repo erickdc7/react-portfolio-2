@@ -14,6 +14,7 @@ import {
   RxReader,
   RxRocket,
   RxArrowRight,
+  RxArrowTopRight,
 } from "react-icons/rx";
 
 // Required modules
@@ -81,6 +82,9 @@ const ServiceSlider = () => {
                   <p>{item.description}</p>
                 </div>
                 {/* Arrow */}
+                <div>
+                  <RxArrowTopRight />
+                </div>
               </div>
             </SwiperSlide>
           )
