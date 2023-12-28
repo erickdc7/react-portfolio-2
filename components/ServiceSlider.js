@@ -80,6 +80,7 @@ const ServiceSlider = () => {
                   <div>{item.title}</div>
                   <p>{item.description}</p>
                 </div>
+                {/* Arrow */}
               </div>
             </SwiperSlide>
           )
