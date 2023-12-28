@@ -79,7 +79,10 @@ const WorkSlider = () => {
                 {
                   slide.images.map((image, index) => {
                     return (
-                      <div key={index}>
+                      <div
+                        className="relative rounded-lg overflow-hidden flex items-center justify-center group"
+                        key={index}
+                      >
                         <div>
                           {/* Image */}
                           <Image
