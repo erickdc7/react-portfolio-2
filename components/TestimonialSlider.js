@@ -69,7 +69,7 @@ const TestimonialSlider = () => {
                 {/* Quote & Message */}
                 <div>
                   {/* Quote Icon */}
-                  <div>
+                  <div className="mb-4">
                     <FaQuoteLeft />
                   </div>
                 </div>
