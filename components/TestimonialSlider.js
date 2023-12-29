@@ -66,6 +66,7 @@ const TestimonialSlider = () => {
                     <div>position</div>
                   </div>
                 </div>
+                {/* Quote & Message */}
               </div>
             </SwiperSlide>
           )
