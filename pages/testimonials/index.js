@@ -2,7 +2,13 @@
 import TestimonialSlider from "../../components/TestimonialSlider";
 
 const Testimonials = () => {
-  return <div>Testimonials</div>;
+  return (
+    <div>
+      <div>
+
+      </div>
+    </div>
+  );
 };
 
 export default Testimonials;
