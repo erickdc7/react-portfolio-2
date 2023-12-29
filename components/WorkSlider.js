@@ -83,7 +83,7 @@ const WorkSlider = () => {
                         className="relative rounded-lg overflow-hidden flex items-center justify-center group"
                         key={index}
                       >
-                        <div className="flex items-center justify-center relative overflow-hidden">
+                        <div className="flex items-center justify-center relative overflow-hidden group">
                           {/* Image */}
                           <Image
                             src={image.path}
