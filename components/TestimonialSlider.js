@@ -55,7 +55,7 @@ const TestimonialSlider = () => {
           return (
             <SwiperSlide key={index}>
               <div>
-
+                {/* Avatar, name, position */}
               </div>
             </SwiperSlide>
           )
