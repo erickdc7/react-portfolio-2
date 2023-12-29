@@ -8,6 +8,7 @@ const Testimonials = () => {
         <h2 className="h2 mb-8 xl:mb-0">
           What clients <span className="text-accent">say.</span>
         </h2>
+        {/* Slider */}
       </div>
     </div>
   );
