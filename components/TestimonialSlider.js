@@ -60,6 +60,7 @@ const TestimonialSlider = () => {
                   <div>
                     {/* Avatar */}
                     <div>avatar image</div>
+                    {/* Name */}
                   </div>
                 </div>
               </div>
