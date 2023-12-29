@@ -63,6 +63,7 @@ const TestimonialSlider = () => {
                     {/* Name */}
                     <div>name</div>
                     {/* Position */}
+                    <div>position</div>
                   </div>
                 </div>
               </div>
