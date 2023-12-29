@@ -54,7 +54,9 @@ const TestimonialSlider = () => {
         testimonialData.slides.map((person, index) => {
           return (
             <SwiperSlide key={index}>
+              <div>
 
+              </div>
             </SwiperSlide>
           )
         })
