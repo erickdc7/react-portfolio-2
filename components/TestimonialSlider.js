@@ -51,7 +51,7 @@ const TestimonialSlider = () => {
       className="h-[280px] sm:h-[488px]"
     >
       {
-        testimonialData.slides.map((person, index) => {
+        testimonialData.map((person, index) => {
           return (
             <SwiperSlide key={index}>
               <div>
