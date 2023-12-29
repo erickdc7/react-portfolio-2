@@ -23,8 +23,45 @@ const testimonialData = [
   },
 ];
 
+// Swiper react components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Swiper styles
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/pagination';
+
+// Required modules
+import { Pagination } from "swiper";
+
+// Icons
+import { BsArrowRight } from "react-icons/bs";
+
+// Next Image
+import Image from "next/image";
+
 const TestimonialSlider = () => {
-  return <div>Testimonial Slider</div>;
+  return (
+    <Swiper
+      spaceBetween={10}
+      pagination={{
+        clickable: true
+      }}
+      modules={[Pagination]}
+      className="h-[280px] sm:h-[488px]"
+    >
+      {
+        testimonialData.slides.map((person, index) => {
+          return (
+            <SwiperSlide key={index}>
+
+            </SwiperSlide>
+          )
+        })
+      }
+    </Swiper>
+  );
 };
 
 export default TestimonialSlider;
+
