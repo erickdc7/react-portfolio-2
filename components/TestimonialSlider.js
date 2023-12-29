@@ -35,7 +35,7 @@ import 'swiper/css/pagination';
 import { Pagination } from "swiper";
 
 // Icons
-import { BsArrowRight } from "react-icons/bs";
+import { FaQuoteLeft } from "react-icons/fa";
 
 // Next Image
 import Image from "next/image";
