@@ -5,7 +5,7 @@ const Testimonials = () => {
   return (
     <div>
       <div>
-        <h2>What clients <span>say.</span></h2>
+        <h2>What clients <span className="text-accent">say.</span></h2>
       </div>
     </div>
   );
