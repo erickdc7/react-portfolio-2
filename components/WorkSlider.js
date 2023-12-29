@@ -97,7 +97,7 @@ const WorkSlider = () => {
                           <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300">
                             <div className="flex items-center gap-x-2 text-[13px] tracking-[0.2em]">
                               {/* Title Part 1 */}
-                              <div className="">
+                              <div className="delay-100">
                                 title part 1
                               </div>
                               {/* Title Part 2 */}
