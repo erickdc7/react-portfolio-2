@@ -10,7 +10,9 @@ const Testimonials = () => {
           What clients <span className="text-accent">say.</span>
         </h2>
         {/* Slider */}
-        <div></div>
+        <div>
+          <TestimonialSlider />
+        </div>
       </div>
     </div>
   );
