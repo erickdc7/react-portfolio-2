@@ -15,7 +15,7 @@ const Contact = () => {
     <div className="h-full bg-primary/30">
       <div className="container mx-auto">
         <div className="">
-
+          {/* Text */}
         </div>
       </div>
     </div>
