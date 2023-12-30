@@ -22,7 +22,7 @@ const Contact = () => {
           </h2>
           {/* Form */}
           <form>
-            form
+            <div className="flex"></div>
           </form>
         </div>
       </div>
