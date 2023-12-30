@@ -20,9 +20,14 @@ const Testimonials = () => {
           What clients <span className="text-accent">say.</span>
         </motion.h2>
         {/* Slider */}
-        <div>
+        <motion.div
+          variants={fadeIn('up', 0.4)}
+          initial="hidden"
+          animate="show"
+          exit="hidden"
+        >
           <TestimonialSlider />
-        </div>
+        </motion.div>
       </div>
     </div>
   );
