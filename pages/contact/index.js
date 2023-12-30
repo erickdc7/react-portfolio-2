@@ -24,7 +24,8 @@ const Contact = () => {
           <form>
             {/* Group */}
             <div className="flex">
-              <input type="text" />
+              <input type="text" placeholder="name" className="input" />
+              <input type="text" placeholder="email" className="input" />
             </div>
           </form>
         </div>
