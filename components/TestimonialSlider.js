@@ -63,7 +63,9 @@ const TestimonialSlider = () => {
                       <Image src={person.image} width={100} height={100} alt="" />
                     </div>
                     {/* Name */}
-                    <div>name</div>
+                    <div className="text-lg">
+
+                    </div>
                     {/* Position */}
                     <div>position</div>
                   </div>
