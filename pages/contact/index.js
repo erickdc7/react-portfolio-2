@@ -23,7 +23,7 @@ const Contact = () => {
           {/* Form */}
           <form>
             {/* Input group */}
-            <div className="flex">
+            <div className="flex gap-x-6 w-full">
               <input type="text" placeholder="name" className="input" />
               <input type="text" placeholder="email" className="input" />
             </div>
