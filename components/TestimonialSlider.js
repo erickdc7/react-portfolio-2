@@ -28,7 +28,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Swiper styles
 import 'swiper/css';
-import 'swiper/css/free-mode';
+import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 // Required modules
