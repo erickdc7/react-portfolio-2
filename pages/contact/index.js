@@ -15,7 +15,7 @@ const Contact = () => {
     <div className="h-full bg-primary/30">
       <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
         {/* Text & Form */}
-        <div className="">
+        <div className="flex">
           {/* Text */}
           <h2 className="h2 text-center mb-12">
             Let's <span className="text-accent">connect.</span>
