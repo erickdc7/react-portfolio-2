@@ -14,6 +14,7 @@ const Contact = () => {
   return (
     <div className="h-full bg-primary/30">
       <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
+        {/* Text & Form */}
         <div className="">
           {/* Text */}
           <h2 className="h2 text-center mb-12">
