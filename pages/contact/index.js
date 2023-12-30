@@ -21,7 +21,7 @@ const Contact = () => {
             Let's <span className="text-accent">connect.</span>
           </h2>
           {/* Form */}
-          <form>
+          <form className="flex-1 flex flex-col gap-6 w-full mx-auto">
             {/* Input group */}
             <div className="flex gap-x-6 w-full">
               <input type="text" placeholder="name" className="input" />
