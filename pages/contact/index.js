@@ -21,7 +21,9 @@ const Contact = () => {
             Let's <span className="text-accent">connect.</span>
           </h2>
           {/* Form */}
-          <form action=""></form>
+          <form>
+            form
+          </form>
         </div>
       </div>
     </div>
