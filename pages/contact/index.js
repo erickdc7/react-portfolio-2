@@ -14,7 +14,9 @@ const Contact = () => {
   return (
     <div className="h-full bg-primary/30">
       <div className="container mx-auto">
+        <div className="">
 
+        </div>
       </div>
     </div>
   );
