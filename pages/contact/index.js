@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="">
           {/* Text */}
           <h2 className="h2 text-center mb-12">
-            Let's <span>connect.</span>
+            Let's <span className="text-accent">connect.</span>
           </h2>
         </div>
       </div>
