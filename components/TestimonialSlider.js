@@ -32,7 +32,7 @@ import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 
 // Required modules
-import { Pagination } from "swiper";
+import { Navigation, Pagination } from "swiper";
 
 // Icons
 import { FaQuoteLeft } from "react-icons/fa";
@@ -47,7 +47,7 @@ const TestimonialSlider = () => {
       pagination={{
         clickable: true
       }}
-      modules={[Pagination]}
+      modules={[Navigation, Pagination]}
       className="h-[280px] sm:h-[480px]"
     >
       {
