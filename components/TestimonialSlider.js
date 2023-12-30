@@ -56,7 +56,7 @@ const TestimonialSlider = () => {
             <SwiperSlide key={index}>
               <div>
                 {/* Avatar, name, position */}
-                <div>
+                <div className="w-full max-w-[300px]">
                   <div>
                     {/* Avatar */}
                     <div>avatar image</div>
