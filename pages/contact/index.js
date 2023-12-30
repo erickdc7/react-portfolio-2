@@ -23,7 +23,9 @@ const Contact = () => {
           {/* Form */}
           <form>
             {/* Group */}
-            <div className="flex"></div>
+            <div className="flex">
+              <input type="text" />
+            </div>
           </form>
         </div>
       </div>
