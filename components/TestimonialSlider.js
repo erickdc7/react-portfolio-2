@@ -43,7 +43,7 @@ import Image from "next/image";
 const TestimonialSlider = () => {
   return (
     <Swiper
-      spaceBetween={10}
+      navigation={true}
       pagination={{
         clickable: true
       }}
