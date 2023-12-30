@@ -12,7 +12,7 @@ import { fadeIn } from "../../variants";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="h-full bg-primary/30">
       Contact
     </div>
   );
