@@ -16,6 +16,9 @@ const Contact = () => {
       <div className="container mx-auto">
         <div className="">
           {/* Text */}
+          <h2>
+            Let's <span>connect.</span>
+          </h2>
         </div>
       </div>
     </div>
