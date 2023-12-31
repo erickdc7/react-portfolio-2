@@ -32,7 +32,7 @@ const Contact = () => {
             <button>
               <span>
                 Let's talk
-
+                <BsArrowRight />
               </span>
             </button>
           </form>
