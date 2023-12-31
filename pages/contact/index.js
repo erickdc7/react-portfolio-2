@@ -30,7 +30,7 @@ const Contact = () => {
             <input type="text" placeholder="subject" className="input" />
             <textarea placeholder="message" className="textarea"></textarea>
             <button className="button rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group">
-              <span>
+              <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">
                 Let's talk
                 <BsArrowRight />
               </span>
