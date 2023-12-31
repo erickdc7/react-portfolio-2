@@ -30,7 +30,10 @@ const Contact = () => {
             <input type="text" placeholder="subject" className="input" />
             <textarea placeholder="message" className="textarea"></textarea>
             <button>
+              <span>
+                Let's talk
 
+              </span>
             </button>
           </form>
         </div>
