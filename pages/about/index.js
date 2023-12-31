@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import React, { useState } from "react";
 
 // Icons
@@ -25,18 +26,18 @@ const aboutData = [
       {
         title: 'Web Development',
         icons: [
-          <FaHtml5 key={index} />,
-          <FaCss3 key={index} />,
-          <FaJs key={index} />,
-          <FaReact key={index} />,
-          <SiNextdotjs key={index} />,
-          <SiFramer key={index} />,
-          <FaWordpress key={index} />,
+          <FaHtml5 />,
+          <FaCss3 />,
+          <FaJs />,
+          <FaReact />,
+          <SiNextdotjs />,
+          <SiFramer />,
+          <FaWordpress />,
         ],
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma key={index} />, <SiAdobexd key={index} />, <SiAdobephotoshop key={index} />],
+        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
       },
     ],
   },
