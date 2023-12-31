@@ -29,7 +29,7 @@ const Contact = () => {
             </div>
             <input type="text" placeholder="subject" className="input" />
             <textarea placeholder="message" className="textarea"></textarea>
-            <button>
+            <button className="button rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group">
               <span>
                 Let's talk
                 <BsArrowRight />
